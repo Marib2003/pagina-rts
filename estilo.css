@@ -1,0 +1,176 @@
+
+:root {
+	--primary: #000000;
+	--secundary: color:#000080 ;
+	--background: color: #35495e;
+	--black-text: rgb(61,61,61) ;
+	--white-text: #ffffff ;
+	--blue-gradient: linear-gradient(90deg,#42b983,#35495e) ;
+	--button-hover: #b91712 ;
+	--text-shadow: 3rem 3rem 3rem #0d0d0e;
+}
+
+h1 {
+	
+	color: #b91712;
+	 font-size: 60px; 
+	 font-weight: 700;
+	 text-align: center; 
+}
+
+div img {
+	padding-left: 190px;
+}
+
+#escrito {
+	color: #b91712;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 40; 
+	margin: 30px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+
+h2 {
+	color: red;
+	font-size:60px;
+	padding-left: 500px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 105px;
+	}
+h3 {
+	color: red;
+	 font-size: 60px; 
+	 padding-left: 400px;
+	}
+	
+li {
+	font-size: 28px;
+	font-weight: 30;
+	 margin-top: 15px;
+	}
+
+
+h4 {
+	color: red;
+	 font-size: 60px;
+	}
+
+a {
+	color: blue;
+	 font-size: 27px; 
+	 padding-left: 0;
+}
+
+
+* {
+	padding: auto;
+	margin: auto;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	background-color: #35495e;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center ;
+	
+	
+}
+
+header  {
+	color: var(--white-text);
+	font-size:4rem ;
+	letter-spacing: .8rem;
+	
+}
+
+
+ nav ul {
+ 	display: flex;
+}
+
+nav ul li {
+	border-right: 1px solid rgba(92, 89, 89, 0.41);
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+nav ul li a{
+	color: var(--white-text);
+	font-size: 2rem;
+	text-align: center;
+	padding: .5rem 3rem;
+	text-transform:uppercase;
+	border-radius: .3rem;
+}
+
+nav ul li a:hover{
+	background-color: var(--button-hover);
+	transition: all .3s;
+	border-bottom: solid .2rem var(--buttom-hover);
+}
+
+.drawer{
+	font-size: 1rem;
+	color: var(--white-text);
+	float: left;
+	cursor: pointer;
+	display: none;
+	margin-left: 1rem;
+	border: solid 1.5px var(--white-text);
+	padding: .2rem;
+	border-radius: .1rem;
+}
+
+#ckbox{
+	display: none;
+}
+
+#calls {
+	text-align: center;
+}
+
+.wud, .qdq, .djx, .maw, .raf, .ely, .si {
+	position:relative;
+	right: 700px;
+}
+
+.ach, .ybk, .bms, .tresdw, .haz, .jvo, .ved, .bz{
+	position: relative;
+	bottom: 345px;
+}
+
+.ezt, .dx, .uea, .jrg, .sietedw, .dd{
+	position: relative;
+	left: 700px;
+	bottom: 742px;
+}
+
+.vcc, .dru, .cyv{
+	position: relative;
+	left: 700px;
+	bottom: 742px;
+}
+
+footer, section, p {
+	text-align: center;
+	font-size: small;
+	background-color:#35495e ;
+	padding: 0px 0px 1px;
+	color: #ffffff;
+	
+}
+
